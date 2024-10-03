@@ -253,21 +253,6 @@ namespace StarterAssets
 			return Mathf.Clamp(lfAngle, lfMin, lfMax);
 		}
 
-        public class PlayerController : MonoBehaviour
-        {
-            private void Awake()
-            {
-                // Ensure the player is not destroyed on loading new scenes
-                DontDestroyOnLoad(gameObject);
-            }
-
-            // Add movement logic here if necessary
-            void Update()
-            {
-                // Basic player movement can be added here
-            }
-        }
-
         private void OnDrawGizmosSelected()
 		{
 			Color transparentGreen = new Color(0.0f, 1.0f, 0.0f, 0.35f);

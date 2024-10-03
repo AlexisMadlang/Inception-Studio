@@ -30,4 +30,20 @@ public class Teleporter : MonoBehaviour
         SceneManager.LoadScene(nextScene);
     }
 
+    public class SceneTransition : MonoBehaviour
+    {
+        public Transform spawnPoint; // Reference to the spawn point in Scene2
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Player"))
+            {
+                // Make sure the player is not destroyed
+                DontDestroyOnLoad(other.gameObject);
+
+                // Load the new scene
+                SceneManager.LoadScene("Scene2");
+            }
+        }
+    }
 }

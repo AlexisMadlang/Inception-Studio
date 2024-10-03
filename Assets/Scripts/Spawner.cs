@@ -8,7 +8,9 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField]
+ 
+
+[SerializeField]
     KeyCode spawnKey = KeyCode.G;       // User-defined keyboard input
 
     [SerializeField, Range(1f, 50f)]
@@ -43,3 +45,5 @@ public class Spawner : MonoBehaviour
         }
     }
 }
+
+
