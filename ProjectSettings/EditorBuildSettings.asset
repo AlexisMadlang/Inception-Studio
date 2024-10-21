@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Showroom.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Autoroom.unity
     guid: 7a603f352a40ff2479c5c165f92899a3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Goatroom.unity
     guid: 6fd62458912563c418a63c72528ec72c
+  - enabled: 1
+    path: Assets/Scenes/MIDTERM.unity
+    guid: 0bb03d6bb99ca5f41a149ffb173cdedd
   m_configObjects: {}
